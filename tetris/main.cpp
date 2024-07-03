@@ -42,9 +42,4 @@ int main()
     tetromino[6].append(L".xx.");
     tetromino[6].append(L".x..");
     tetromino[6].append(L".x..");
-
-    for (auto &&i : tetromino)
-    {
-        wcout << i << endl;
-    }
 }
