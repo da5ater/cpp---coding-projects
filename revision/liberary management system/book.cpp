@@ -1,5 +1,6 @@
 #include "book.hpp"
 #include <iostream>
+#include <cstring>
 
 // construtors and destructors
 
@@ -38,9 +39,15 @@ book::~book()
 // move semantics
 
 book::book(const book &source)
+    : author{source.author}, ISBN{source.ISBN}
 { // deep copy
+    std::cout << "copy constructor \n";
+    title = new char[strlen(source.title) + 1];
+    strcpy(title, source.title);
 }
 
-book::book(const book &&source)
+book::book(book &&source)
+    : title{source.title}, author{source.author}, ISBN{source.ISBN}
 { // move constructor
+    source, title = nullptr;
 }

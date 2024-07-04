@@ -15,7 +15,7 @@ public:
     ~book();
 
     book(const book &source);
-    book(const book &&source);
+    book(book &&source);
 };
 
 #endif
