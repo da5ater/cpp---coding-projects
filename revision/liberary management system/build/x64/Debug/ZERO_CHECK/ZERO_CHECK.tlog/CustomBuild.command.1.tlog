@@ -1,0 +1,10 @@
+^G:\MOHAMED\PROGRAMMING\C++\PROJECTS\CPP---CODING-PROJECTS\REVISION\LIBERARY MANAGEMENT SYSTEM\BUILD\CMAKEFILES\70E52DE0A56BD9F616455575987A324F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system" "-BG:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/LibraryManagementSystem.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^G:\MOHAMED\PROGRAMMING\C++\PROJECTS\CPP---CODING-PROJECTS\REVISION\LIBERARY MANAGEMENT SYSTEM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system" "-BG:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build" --check-stamp-file "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

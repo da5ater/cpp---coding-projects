@@ -1,0 +1,3 @@
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/LibraryManagementSystem.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/ALL_BUILD.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/ZERO_CHECK.dir

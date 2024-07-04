@@ -5,7 +5,7 @@
 // construtors and destructors
 
 book::book(const char *Ntitle, std::string Nauthor, int NISBN)
-    : title{nullptr}, author{author}, ISBN{ISBN} // initilization list
+    : title{nullptr}, author{Nauthor}, ISBN{NISBN} // initilization list
 {
     if (Ntitle == nullptr)
     {
@@ -21,8 +21,8 @@ book::book(const char *Ntitle, std::string Nauthor, int NISBN)
     std::cout << "constructing : " << title;
 };
 
-book::book()
-    : book{"none", "none", -1} // delegating constructors
+book::book(std::string Nauthor)
+    : book{"none", Nauthor, -1} // delegating constructors
 {
 };
 
@@ -49,5 +49,36 @@ book::book(const book &source)
 book::book(book &&source)
     : title{source.title}, author{source.author}, ISBN{source.ISBN}
 { // move constructor
-    source, title = nullptr;
+    source.title = nullptr;
+}
+
+// operator overloading
+
+book &book::operator=(const book &rhs) // copy assignment
+{
+    std::cout << "copy assignement\n";
+    if (this == &rhs)
+    {
+        return *this;
+    }
+    delete[] title;
+    title = new char[strlen(rhs.title) + 1];
+    strcpy(title, rhs.title);
+
+    author = rhs.author;
+    ISBN = rhs.ISBN;
+    return *this;
+}
+
+book &book::operator=(book &&rhs)
+{
+    std::cout << "move assigenment\n";
+    if (this == &rhs)
+        return *this;
+
+    delete[] title;
+    title = rhs.title;
+    rhs.title = nullptr;
+
+    return *this;
 }
