@@ -1,0 +1,14 @@
+[
+{
+  "directory": "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\book.dir\\book.cpp.obj -c \"G:\\Mohamed\\programming\\c++\\projects\\cpp---coding-projects\\revision\\liberary management system\\book.cpp\"",
+  "file": "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/book.cpp",
+  "output": "CMakeFiles/book.dir/book.cpp.obj"
+},
+{
+  "directory": "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\executable.dir\\main.cpp.obj -c \"G:\\Mohamed\\programming\\c++\\projects\\cpp---coding-projects\\revision\\liberary management system\\main.cpp\"",
+  "file": "G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/main.cpp",
+  "output": "CMakeFiles/executable.dir/main.cpp.obj"
+}
+]

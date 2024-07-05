@@ -18,7 +18,7 @@ book::book(const char *Ntitle, std::string Nauthor, int NISBN)
         std::strcpy(title, Ntitle);
     }
 
-    std::cout << "constructing : " << title;
+    std::cout << "constructing : " << title << std::endl;
 };
 
 book::book(std::string Nauthor)
@@ -28,7 +28,7 @@ book::book(std::string Nauthor)
 
 book::~book()
 {
-    std::cout << "destructor :" << title;
+    std::cout << "destructor :" << title << std::endl;
     if (title != nullptr)
     {
         delete[] title;

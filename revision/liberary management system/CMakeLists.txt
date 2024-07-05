@@ -1,14 +1,12 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION  3.22)
 
 # Project name
 project(LibraryManagementSystem)
 
-# Find required libraries (optional)
-# You might need to install development packages for specific libraries
+add_library(book STATIC book.cpp)
 
-# Add source files
-add_executable(LibraryManagementSystem main.cpp book.cpp)
+add_executable(executable main.cpp)
 
-# Include header directory (optional)
-# If your header file is in a separate directory, you need to specify the path
-# include_directories(book_header_dir)
+target_link_libraries(executable PUBLIC book)
+
+

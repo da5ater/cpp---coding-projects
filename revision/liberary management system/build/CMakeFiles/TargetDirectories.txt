@@ -1,3 +1,4 @@
-G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/LibraryManagementSystem.dir
-G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/ALL_BUILD.dir
-G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/ZERO_CHECK.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/book.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/executable.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/edit_cache.dir
+G:/Mohamed/programming/c++/projects/cpp---coding-projects/revision/liberary management system/build/CMakeFiles/rebuild_cache.dir
