@@ -82,3 +82,9 @@ book &book::operator=(book &&rhs)
 
     return *this;
 }
+
+std::ostream &operator<<(std::ostream &os, const book &obj)
+{
+    os << obj.title;
+    return os;
+}

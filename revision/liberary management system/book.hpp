@@ -4,6 +4,8 @@
 
 class book
 {
+    friend std::ostream &operator<<(std::ostream &os, const book &obj);
+
 private:
     char *title;
     std::string author;
